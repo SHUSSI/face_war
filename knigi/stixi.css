@@ -12,7 +12,7 @@ body {
 .default {
     background-color: rgba(226, 226, 226, 1);
     width: 1400px;
-    height: 2000px;
+    height: 4000px;
     margin: 0 auto;
     display: block;
     position: relative;
@@ -96,3 +96,28 @@ a:hover {
     top: 6px;
     
 }
+
+.Kategoria2 {
+    font-family: sans-serif;
+    word-spacing: 20px;
+    margin-left: 800px;
+    padding-top:100px ;
+    font-size: x-large;
+    position: absolute;
+}
+
+.stix1 {
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+.stix11 {
+    color: black;
+    position: absolute;
+    margin-top: 10px;
+    text-align: left;
+    font-size: large; 
+    white-space: pre-line;
+
+}
+

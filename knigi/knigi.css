@@ -12,7 +12,7 @@ body {
 .default {
     background-color: rgba(226, 226, 226, 1);
     width: 1400px;
-    height: 2000px;
+    height: 2800px;
     margin: 0 auto;
     display: block;
     position: relative;
@@ -95,6 +95,15 @@ a:hover {
     right: 20px;
     top: 6px;
     
+}
+
+.Kategoria2 {
+    font-family: sans-serif;
+    word-spacing: 20px;
+    margin-left: 800px;
+    padding-top:100px ;
+    font-size: x-large;
+    position: absolute;
 }
 
 .xatyn {
@@ -217,4 +226,109 @@ button:hover {
     position: absolute;
     left: 1100px;
     top: 1085px;
+}
+
+.kniga16 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 100px;
+    top: 1510px;
+}
+
+.kniga17 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 350px;
+    top: 1510px;
+}
+
+.kniga18 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 600px;
+    top: 1510px;
+}
+
+.kniga19 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 850px;
+    top: 1510px;
+}
+
+.kniga20 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 1100px;
+    top: 1510px;
+}
+
+.kniga21 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 100px;
+    top: 1935px;
+}
+
+.kniga22 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 350px;
+    top: 1935px;
+}
+
+.kniga23 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 600px;
+    top: 1935px;
+}
+
+.kniga24 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 850px;
+    top: 1935px;
+}
+
+.kniga25 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 1100px;
+    top: 1935px;
+}
+
+.kniga26 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 100px;
+    top: 2355px;
+}
+
+.kniga27 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 350px;
+    top: 2355px;
+}
+
+.kniga28 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 600px;
+    top: 2355px;
+}
+
+.kniga29 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 850px;
+    top: 2355px;
+}
+
+.kniga30 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 1100px;
+    top: 2355px;
 }

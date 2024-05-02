@@ -96,3 +96,12 @@ a:hover {
     top: 6px;
     
 }
+
+.Kategoria2 {
+    font-family: sans-serif;
+    word-spacing: 20px;
+    margin-left: 800px;
+    padding-top:100px ;
+    font-size: x-large;
+    position: absolute;
+}
