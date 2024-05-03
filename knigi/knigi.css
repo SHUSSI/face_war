@@ -332,3 +332,20 @@ button:hover {
     left: 1100px;
     top: 2355px;
 }
+
+.back-to-top {
+    background: white;
+    border-radius: 50%;
+    position: fixed;
+    bottom: -50px;
+    padding: 10px 12px;
+    right: 95px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.back-to-top.active {
+    bottom: 50px;
+    transition: 0.3s all;
+}
+
