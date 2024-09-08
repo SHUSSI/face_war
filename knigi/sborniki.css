@@ -10,7 +10,7 @@ body {
     background-image: url('https://cubiq.ru/wp-content/uploads/2020/11/grunge-min.png');
 }
 .default {
-    background-color: rgba(226, 226, 226, 1);
+    background-color: white;
     width: 1400px;
     height: 2000px;
     margin: 0 auto;
@@ -84,7 +84,7 @@ a:hover {
 }
 
 button {
-    background-color: rgba(226, 226, 226, 1);
+    background-color: rgb(255, 255, 255);
     color: black;
     border: 2px solid #555555;
     padding: 12px 50px;
@@ -144,4 +144,11 @@ button:hover {
 .back-to-top.active {
     bottom: 50px;
     transition: 0.3s all;
+}
+
+.sbornik2 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 350px;
+    top: 235px;
 }

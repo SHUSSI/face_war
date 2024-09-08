@@ -9,8 +9,12 @@ body {
     background-repeat: repeat;
     background-image: url('https://cubiq.ru/wp-content/uploads/2020/11/grunge-min.png');
 }
+
+img {
+    max-width: 100%;
+}
 .default {
-    background-color: rgba(226, 226, 226, 1);
+    background-color: white;
     width: 1400px;
     height: 2000px;
     margin: 0 auto;
@@ -120,4 +124,37 @@ a:hover {
 .back-to-top.active {
     bottom: 50px;
     transition: 0.3s all;
+}
+
+.slaider {
+    margin-top: 100px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%; 
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+.swiper-slide img {
+    position: relative;
+    display: flex;
+    object-fit: cover;
+    width: 200px;
+    height: 310px;
+  }
+
+.swiper-wrapper {
+    position: relative;
+    width: 200px;
+    height: 310px;
 }
