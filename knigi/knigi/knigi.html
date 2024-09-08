@@ -2,24 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="knigi.css">
+    <script src="../main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <title>Knigi</title>
 </head>
 <body>
     <div class="default">
+        <div id="back_to_top" class="back-to-top" onclick="scrollTopTop()">
+            <svg xmlns="http://www.w3.org/2000/svg" style="transform: rotate(270deg);" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+        </div>
         <div class="default2">            
             <div class="Kategoria">
                 <a href="">Категории:</a>
-                <a href="../glavnaia.html">•Главная</a>
+                <a href="../index.html">•Главная</a>
                 <a href="../knigi/knigi.html">•Книги</a>
                 <a href="../knigi/stixi.html">•Cтихотворения</a>
                 <a href="../knigi/sborniki.html">•Сборники</a>
             <div class="poisk">
                 <input type="text" name="text" class="search" placeholder="Поиск по сайту ">
-                <input type="submit" name="submit" class="submit" value="">
+                <input type="submit" name="submit" class="submit" value="">  
             </div>
-            </div>
+           </div>
+           <div class="Kategoria2">
+            <a href="">Статьи:</a>
+            <a href="../knigi/pionery.html">•Пионеры-герои</a>
+           </div>
+
+
+
         </div>
         <div class="text-knigi"><h1>Книги</h1></div>
 
@@ -27,44 +38,320 @@
             <img src="../image/xatyn.png" alt="">
             <h4>Хатынская повесть.</h4>
             <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Адамович А.М</p>
+            <a href="http://loveread.ec/read_book.php?id=28221&p=1" target="_blank">
             <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>
+            </a>     
         </div>
 
         <div class="vysota">
             <img src="../image/vysota.png" alt="">
             <h4>Четвертая высота.</h4>
             <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Ильина Е.Я</p>
+            <a href="https://daningrad.ru/chetvertaya-vysota-elena-ilina" target="_blank">
             <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>
+            </a>
+
         </div>
 
         <div class="oxotnik">
             <img src="../image/oxotnik.png" alt="">
             <h4>Морской охотник.</h4>
             <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Чуковский A.K</p>
-            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>
+            <a href="https://www.rulit.me/books/morsoj-ohotnik-read-197729-1.html" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>  
+            </a>
+
+          
         </div>
 
         <div class="sudba">
             <img src="../image/sudba.png" alt="">
             <h4>Судьба человека.</h4>
             <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Шолохов М.А.</p>
+            <a href="https://mybook.ru/author/mihail-sholohov/sudba-cheloveka-donskie-rasskazy-sbornik/read/" target="_blank">
             <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>
+            </a>
         </div>
 
         <div class="ataka">
             <img src="../image/ataka.png" alt="">
             <h4>За час до атаки.</h4>
-            <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Шмерлинг С.Б. </p>
-            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>
+            <a href="https://fantlab.ru/edition243654" target="_blank">
+            <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Шмерлинг С.Б.</p>
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>   
+            </a>
         </div>
 
+        <div class="zemli">
+            <img src="../image/zemli.png" alt="">
+            <h4>Пядь земли.</h4>
+            <a href="https://readli.net/pyad-zemli-2/" target="_blank"></a>
+            <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Бакланов Г.Я.</p>
+            <a href="http://loveread.ec/read_book.php?id=28221&p=1">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>
+            </a>     
+        </div>
+
+        <div class="familii">
+            <img src="../image/familii.png" alt="">
+            <h4>Богатырские фамилии.</h4>
+            <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Алексеев С.П.</p>
+            <a href="https://azbyka.ru/fiction/bogatyrskie-familii-sergej-alekseev/" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>
+            </a>
+            
+
+        </div>
+
+        <div class="tyl">
+            <img src="../image/tyl.png" alt="">
+            <h4>В тылу как в тылу.</h4>
+            <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Алексин А.Г.</p>
+            <a href="https://libcat.ru/knigi/proza/detskiaya-proza/334935-anatolij-aleksin-v-tylu-kak-v-tylu.html" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>
+            </a>
+            
+            
+        </div>
+
+        <div class="pastux">
+            <img src="../image/pastux.png" alt="">
+            <h4>Пастух и пастушка</h4>
+                        <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Астафьев В.П.</p>
+            <a href="http://loveread.ec/view_global.php?id=1861" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button> 
+            </a>
+
+            
+        </div>
+
+        <div class="voina">
+            <img src="../image/voina.png" alt="">
+            <h4>У войны не женское лицо.</h4>
+                      <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Алексиевич С.</p>
+            <a href="http://loveread.ec/view_global.php?id=28329" target="_blank">
+
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>  
+            </a>
+  
+            
+        </div>
+
+        <div class="kniga11">
+            <img src="../image/kniga11.png" alt="">
+            <h4>Волоколамское шоссе.</h4>
+                        <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Бек А.А.</p>
+            <a href="http://loveread.ec/view_global.php?id=82520" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button> 
+            </a>
+
+        </div>
+
+        <div class="kniga12">
+            <img src="../image/kniga12.png" alt="">
+            <h4>Зося. Иван.</h4>
+             <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Богомолов В.О.</p>
+            <a href="https://readli.net/ivan-zosya-sbornik/" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button> 
+            </a>
+           
+
+        </div>
+
+        <div class="kniga13">
+            <img src="../image/kniga13.png" alt="">
+            <h4>Не первая атака</h4>
+             <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Борзунов С.М. </p>
+            <a href="https://readli.net/he-pervaya-ataka/" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button> 
+            </a>
+           
+        </div>
+
+        <div class="kniga14">
+            <img src="../image/kniga14.png" alt="">
+            <h4>Юнги</h4>
+             <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Вишнев П.П. </p>
+            <a href="https://libking.ru/books/child-/child-adv/569565-pavel-vishnev-yungi-ill-i-dubrovin.html" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button> 
+            </a>
+           
+        </div>
+
+        <div class="kniga15">
+            <img src="../image/kniga15.png" alt="">
+            <h4>Непокоренные.</h4>
+             <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Горбатов Б.Л. </p>
+            <a href="https://libking.ru/books/nonf-/nonf-biography/20047-boris-gorbatov-nepokorennye.html" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>   
+            </a>
+           
+        </div>
 
         
-    </div>
+        <div class="kniga16">
+            <img src="../image/kniga16.png" alt="">
+            <h4>И один в поле воин.</h4>
 
-    
-    
-    
+             <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Дольд – Михайлик Ю. И</p>
+            <a href="https://www.litres.ru/book/uriy-dold-mihaylik/i-odin-v-pole-voin-143306/chitat-onlayn/" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button> 
+            </a>
+        </div>
+
+        <div class="kniga17">
+            <img src="../image/kniga17.png" alt="">
+            <h4>Он упал на траву…</h4>
+              <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Драгунский В.Ю. </p>
+            <a href="http://www.lib.ru/PRIKL/DRAGUNSKIJ/war.txt" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>    
+            </a>
+          
+
+        </div>
+
+        <div class="kniga18">
+            <img src="../image/kniga18.png" alt="">
+            <h4>Мальчишки в сорок первом.</h4>
+            <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Дубровин В.Б.</p>
+            <a href="https://litmir.club/bd/?b=831633" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>   
+            </a>
+            
+        </div>
+
+        <div class="kniga19">
+            <img src="../image/kniga19.png" alt="">
+            <h4>Я вижу солнце.</h4>
+            <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Думбадзе Н.В.</p>
+            <a href="https://libking.ru/books/prose-/prose-rus-classic/14273-nodar-dumbadze-ya-vizhu-solntse.html" target="_blank">
+                          <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>  
+            </a>
+            
+
+        </div>
+
+        <div class="kniga20">
+            <img src="../image/kniga20.png" alt="">
+            <h4>Матерь человеческая.</h4>
+                        <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Закруткин В.А.</p>
+            <a href="https://knijky.ru/books/mater-chelovecheskaya" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>   
+            </a>
+
+
+        </div>
+
+        <div class="kniga21">
+            <img src="../image/kniga21.png" alt="">
+            <h4>Звезда.</h4>
+                  <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Казакевич Э.Г.</p>
+            <a href="http://lib.ru/PROZA/KAZAKEWICH/zwezda.txt" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>         
+            </a>
+      
+
+        </div>
+
+        <div class="kniga22">
+            <img src="../image/kniga22.png" alt="">
+            <h4>Сын полка.</h4>
+            <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Катаев В.П.</p>
+            <a href="https://nukadeti.ru/skazki/kataev-syn-polka" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>     
+            </a>
+           
+
+        </div>
+
+        <div class="kniga23">
+            <img src="../image/kniga23.png" alt="">
+            <h4>Ни дня без победы.</h4>
+            <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Кирносов А.А.</p>
+            <a href="https://readli.net/ni-dnya-bez-pobedyi-povest-o-marshale-govorove/" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>    
+            </a>
+            
+
+        </div>
+
+        <div class="kniga24">
+            <img src="../image/kniga24.png" alt="">
+            <h4>Самоходка номер 120.</h4>
+            <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Колесов К.П. </p>
+            <a href="https://libcat.ru/knigi/proza/prose-military/33917-konstantin-kolesov-samohodka-nomer-120.html" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>    
+            </a>
+            
+
+        </div>
+
+        <div class="kniga25">
+            <img src="../image/kniga25.png" alt="">
+            <h4> Повесть о Зое и Шуре.</h4>
+            <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Космодемьянская Л.Т.</p>
+            <a href="http://lib.ru/PRIKL/PIONERY/zoyshura.txt" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>    
+            </a>
+            
+
+        </div>
+
+        <div class="kniga26">
+            <img src="../image/kniga26.png" alt="">
+            <h4>Дневник Костериной.</h4>
+            <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Костерина Н. </p>
+            <a href="https://gendirector1.blogspot.com/p/blog-page_4833.html" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>   
+            </a>
+            
+          
+        </div>
+
+        <div class="kniga27">
+            <img src="../image/kniga27.png" alt="">
+            <h4>Повесть о сыне.</h4>
+            <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Кошевая Е.Н. </p>
+            <a href="https://libking.ru/books/nonf-/nonf-biography/28962-elena-koshevaya-povest-o-syne.html" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button> 
+            </a>
+            
+            
+        </div>
+
+        <div class="kniga28">
+            <img src="../image/kniga28.png" alt="">
+            <h4>На войне как на войне.</h4>
+            <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Курочкин В.А. </p>
+            <a href="http://loveread.ec/view_global.php?id=77034" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>  
+            </a>
+            
+
+        </div>
+
+        <div class="kniga29">
+            <img src="../image/kniga29.png" alt="">
+            <h4>Подвиг солдата.</h4>
+            <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Митяев А.В.</p>
+            <a href="https://royallib.com/book/mityaev_anatoliy/podvig_soldata.html" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button>  
+            </a>
+            
+
+        </div>
+
+        <div class="kniga30">
+            <img src="../image/kniga30.png" alt="">
+            <h4>Клава Назарова.</h4>
+            <p style="color: rgba(107, 107, 107, 1); font-family: sans-serif, monospace;">Мусатов А.И.</p>
+            <a href="https://libking.ru/books/prose-/prose-su-classics/164213-aleksey-musatov-klava-nazarova.html" target="_blank">
+            <button style="margin-left: 25px; position: absolute; margin-top: 4px;">Читать</button> 
+            </a>
+            
+
+        </div>
+    </div>
     
     
    

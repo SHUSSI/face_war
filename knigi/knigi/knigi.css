@@ -10,9 +10,9 @@ body {
     background-image: url('https://cubiq.ru/wp-content/uploads/2020/11/grunge-min.png');
 }
 .default {
-    background-color: rgba(226, 226, 226, 1);
+    background-color: white;
     width: 1400px;
-    height: 2000px;
+    height: 2800px;
     margin: 0 auto;
     display: block;
     position: relative;
@@ -90,11 +90,20 @@ a:hover {
     width: 30px; /* укажите нужную ширину */
     height: 30px; /* укажите нужную высоту */
     border: solid 1px #ffffff; /*измените цвет рамки */
-    background: transparent url(image/lupa.png) no-repeat bottom center !important;  
+    background: transparent url(/image/lupa.png) no-repeat bottom center !important;  
     position: absolute;
     right: 20px;
     top: 6px;
     
+}
+
+.Kategoria2 {
+    font-family: sans-serif;
+    word-spacing: 20px;
+    margin-left: 800px;
+    padding-top:100px ;
+    font-size: x-large;
+    position: absolute;
 }
 
 .xatyn {
@@ -105,7 +114,7 @@ a:hover {
 }
 
 button {
-    background-color: rgba(226, 226, 226, 1);
+    background-color: rgb(255, 255, 255);
     color: black;
     border: 2px solid #555555;
     padding: 12px 50px;
@@ -148,3 +157,195 @@ button:hover {
     left: 1100px;
     top: 235px;
 }
+
+.zemli {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 100px;
+    top: 660px;
+}
+
+.familii {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 350px;
+    top: 660px;
+}
+
+.tyl {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 600px;
+    top: 660px;
+}
+
+.pastux {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 850px;
+    top: 660px;
+}
+
+.voina {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 1100px;
+    top: 660px;
+}
+
+.kniga11 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 100px;
+    top: 1085px;
+}
+
+.kniga12 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 350px;
+    top: 1085px;
+}
+
+.kniga13 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 600px;
+    top: 1085px;
+}
+
+.kniga14 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 850px;
+    top: 1085px;
+}
+
+.kniga15 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 1100px;
+    top: 1085px;
+}
+
+.kniga16 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 100px;
+    top: 1510px;
+}
+
+.kniga17 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 350px;
+    top: 1510px;
+}
+
+.kniga18 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 600px;
+    top: 1510px;
+}
+
+.kniga19 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 850px;
+    top: 1510px;
+}
+
+.kniga20 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 1100px;
+    top: 1510px;
+}
+
+.kniga21 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 100px;
+    top: 1935px;
+}
+
+.kniga22 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 350px;
+    top: 1935px;
+}
+
+.kniga23 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 600px;
+    top: 1935px;
+}
+
+.kniga24 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 850px;
+    top: 1935px;
+}
+
+.kniga25 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 1100px;
+    top: 1935px;
+}
+
+.kniga26 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 100px;
+    top: 2355px;
+}
+
+.kniga27 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 350px;
+    top: 2355px;
+}
+
+.kniga28 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 600px;
+    top: 2355px;
+}
+
+.kniga29 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 850px;
+    top: 2355px;
+}
+
+.kniga30 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 1100px;
+    top: 2355px;
+}
+
+.back-to-top {
+    background: white;
+    border-radius: 50%;
+    position: fixed;
+    bottom: -50px;
+    padding: 10px 12px;
+    right: 95px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.back-to-top.active {
+    bottom: 50px;
+    transition: 0.3s all;
+}
+

@@ -12,7 +12,7 @@ body {
 .default {
     background-color: white;
     width: 1400px;
-    height: 4000px;
+    height: 3000px;
     margin: 0 auto;
     display: block;
     position: relative;
@@ -26,13 +26,6 @@ body {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
     display: block;
     position: relative;
-}
-
-.text-knigi {
-    font-family: sans-serif;
-    margin-left: 50px;
-    margin-top: 20px;
-    font-size: x-large;
 }
 
 a {
@@ -104,21 +97,67 @@ a:hover {
     padding-top:100px ;
     font-size: x-large;
     position: absolute;
+    
 }
 
-.stix1 {
-    margin-left: 30px;
-    margin-top: 10px;
-
-}
-.stix11 {
+button {
+    background-color: rgb(255, 255, 255);
     color: black;
-    position: absolute;
-    margin-top: 10px;
-    text-align: left;
-    font-size: large; 
-    white-space: pre-line;
+    border: 2px solid #555555;
+    padding: 12px 50px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    
+    
+}
 
+button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.Kategoria2 {
+    font-family: sans-serif;
+    word-spacing: 20px;
+    margin-left: 800px;
+    padding-top:100px ;
+    font-size: x-large;
+    position: absolute;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.text1{
+    margin: 15px 150px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: justify;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+p {
+    text-indent: 25px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    font-family: "Roboto", "Arial", sans-serif;
 }
 
 .back-to-top {

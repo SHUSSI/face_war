@@ -10,7 +10,7 @@ body {
     background-image: url('https://cubiq.ru/wp-content/uploads/2020/11/grunge-min.png');
 }
 .default {
-    background-color: rgba(226, 226, 226, 1);
+    background-color: white;
     width: 1400px;
     height: 2000px;
     margin: 0 auto;
@@ -83,6 +83,23 @@ a:hover {
 
 }
 
+button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid #555555;
+    padding: 12px 50px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    
+    
+}
+
+button:hover {
+    background-color: #555555;
+    color: white;
+}
+
 
 
 .submit{
@@ -90,9 +107,48 @@ a:hover {
     width: 30px; /* укажите нужную ширину */
     height: 30px; /* укажите нужную высоту */
     border: solid 1px #ffffff; /*измените цвет рамки */
-    background: transparent url(image/lupa.png) no-repeat bottom center !important;  
+    background: transparent url(/image/lupa.png) no-repeat bottom center !important;  
     position: absolute;
     right: 20px;
     top: 6px;
     
+}
+
+.Kategoria2 {
+    font-family: sans-serif;
+    word-spacing: 20px;
+    margin-left: 800px;
+    padding-top:100px ;
+    font-size: x-large;
+    position: absolute;
+}
+
+.sbornik1 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 100px;
+    top: 235px;
+}
+
+.back-to-top {
+    background: white;
+    border-radius: 50%;
+    position: fixed;
+    bottom: -50px;
+    padding: 10px 12px;
+    right: 95px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.back-to-top.active {
+    bottom: 50px;
+    transition: 0.3s all;
+}
+
+.sbornik2 {
+    font-family: sans-serif ;
+    position: absolute;
+    left: 350px;
+    top: 235px;
 }
