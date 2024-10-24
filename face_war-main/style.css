@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+body {
+    background-color: #171717;
+    background-repeat: repeat;
+    background-image: url('https://cubiq.ru/wp-content/uploads/2020/11/grunge-min.png');
+}
+
+img {
+    max-width: 100%;
+}
+.default {
+    background-color: white;
+    width: 1400px;
+    height: 1250px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.default2 {
+    background-color: white;
+    width: 1400px;
+    height: 150px;
+    margin: 0 auto;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    display: block;
+    position: relative;
+}
+
+.text-knigi {
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    user-select: none;
+    color: black;
+}
+
+a:visited {
+    color: black; /* Цвет посещённой ссылки */
+} 
+
+a:hover {
+    color: #CE242B; /* Цвет ссылки при наведении */ 
+    text-decoration: none; /* Добавляем подчёркивание */
+}
+
+.Kategoria {
+    font-family: sans-serif;
+    word-spacing: 20px;
+    margin-left: 50px;
+    padding-top:100px ;
+    font-size: x-large;
+    position: absolute;
+    
+}
+
+.poisk {
+    position: absolute;
+    bottom: 53px;
+}
+
+
+.search {
+    width: 450px; /* укажите нужную ширину */
+    height: 40px; /* укажите нужную высоту */
+    border: solid 3px rgba(172, 172, 172, 1); /* измените цвет рамки */
+    background-color: white; /* измените цвет фона */
+    border-radius: 25px;
+    color: black; /* цвет шрифта в поле поиска */
+    font-size: 20px;
+    text-indent: 15px;
+    &:focus {
+        outline: 0;
+        background:transparent;
+      }
+
+}
+
+
+
+.submit{
+    
+    width: 30px; /* укажите нужную ширину */
+    height: 30px; /* укажите нужную высоту */
+    border: solid 1px #ffffff; /*измените цвет рамки */
+    background: transparent url(image/lupa.png) no-repeat bottom center !important;  
+    position: absolute;
+    right: 20px;
+    top: 6px;
+    
+}
+
+.Kategoria2 {
+    font-family: sans-serif;
+    word-spacing: 20px;
+    margin-left: 800px;
+    padding-top:100px ;
+    font-size: x-large;
+    position: absolute;
+}
+
+.back-to-top {
+    background: white;
+    border-radius: 50%;
+    position: fixed;
+    bottom: -50px;
+    padding: 10px 12px;
+    right: 95px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.back-to-top.active {
+    bottom: 50px;
+    transition: 0.3s all;
+}
+
+.nazi {
+    width: 600px;
+    padding-left: 385px;
+    padding-top: 10px;
+}
+
+.stix1212 {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 150%;
+    padding-left: 900px;
+    padding-top: 15px;
+}
+
+.ula {
+    font-family: "courier", "Arial", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 150%;
+    padding-left: 1100px;
+    padding-top: 5px;
+}
+
+.mai {
+    font-family: "ROBOTO", "Arial", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.text1212 {
+    margin: 15px 150px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: justify;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
