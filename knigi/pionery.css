@@ -83,7 +83,7 @@ a:hover {
     width: 30px; /* укажите нужную ширину */
     height: 30px; /* укажите нужную высоту */
     border: solid 1px #ffffff; /*измените цвет рамки */
-    background: transparent url(/image/lupa.png) no-repeat bottom center !important;  
+    background: transparent url(../image/lupa.png) no-repeat bottom center !important;  
     position: absolute;
     right: 20px;
     top: 6px;
