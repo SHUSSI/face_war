@@ -9,10 +9,14 @@ body {
     background-repeat: repeat;
     background-image: url('https://cubiq.ru/wp-content/uploads/2020/11/grunge-min.png');
 }
+
+img {
+    max-width: 100%;
+}
 .default {
     background-color: white;
     width: 1400px;
-    height: 1000px;
+    height: 1300px;
     margin: 0 auto;
     display: block;
     position: relative;
@@ -90,7 +94,7 @@ a:hover {
     width: 30px; /* укажите нужную ширину */
     height: 30px; /* укажите нужную высоту */
     border: solid 1px #ffffff; /*измените цвет рамки */
-    background: transparent url(../image/lupa.png) no-repeat bottom center !important;  
+    background: transparent url(image/lupa.png) no-repeat bottom center !important;  
     position: absolute;
     right: 20px;
     top: 6px;
@@ -104,21 +108,6 @@ a:hover {
     padding-top:100px ;
     font-size: x-large;
     position: absolute;
-}
-
-.stix1 {
-    margin-left: 30px;
-    margin-top: 10px;
-
-}
-.stix11 {
-    color: black;
-    position: absolute;
-    margin-top: 10px;
-    text-align: left;
-    font-size: large; 
-    white-space: pre-line;
-
 }
 
 .back-to-top {
@@ -137,58 +126,22 @@ a:hover {
     transition: 0.3s all;
 }
 
-button {
-    background-color: rgb(255, 255, 255);
+.voina {
+    padding-top: 20px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 700;
     color: black;
-    border: 2px solid #555555;
-    padding: 12px 50px;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    border-radius: 4px;
-    
-    
+    text-decoration: none;
+    padding-left: 100px;
+   font-size: large; 
 }
 
-button:hover {
-    background-color: #555555;
-    color: white;
-}
-
-.stix1 {
-    padding-left: 20px;
-    font-family: sans-serif;
-}
-
-.stix111 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
-    padding-left: 50px;
-    padding-top: 5px;
+.textvoina {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 700;
     font-size: large;
-
-}
-
-
-.stix2 {
-    padding-top: 25px;
-    padding-left: 50px;
-    font-family: sans-serif;
-}
-
-.stix222 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
-    padding-left: 50px;
-    padding-top: 5px;
-    font-size: large;
-}
-
-.button222 {
-    padding-top: 10px;
-    padding-left: 18px;
-}
-
-.button111 {
-    padding-top: 10px;
-    padding-left: 20px;
+    text-decoration: none;
+    padding-left: 100px;
+    padding-top: 30px;
 }
